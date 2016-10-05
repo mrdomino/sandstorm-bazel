@@ -32,7 +32,7 @@ cc_library(
         "c++/src/capnp/**/*.c++",
     ], exclude = [
         "c++/src/capnp/compiler/capnp.c++",
-        "c++/src/capnp/compiler/capnp-c++.c++",
+        "c++/src/capnp/compiler/capnpc-c++.c++",
         "c++/src/capnp/compiler/capnpc-capnp.c++",
         "c++/src/capnp/test-util.c++",
         "c++/src/capnp/**/*-test.c++",
